@@ -17,7 +17,7 @@ public class PathManager : MonoBehaviour
 
     private void Update()
     {
-        SplitPath("Assets/Textures/brick_wall.png");
+        //SplitPath("Assets/Textures/brick_wall.png");
     }
 
 }
