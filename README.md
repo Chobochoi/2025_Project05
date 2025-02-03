@@ -59,7 +59,8 @@ public class HotSpot : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        
+        OnPointerEnter();
+        OnPointerExit();
     }
 
     public void OnPointerEnter(PointerEventData eventData)
